@@ -1,19 +1,19 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "Muhammad Abdulloh",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
+    role: "Full-Stack .NET and Angular Developer",
     bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    email: "komilovmuhammadabdulloh@gmail.com",
+    linkedin: "muhammad-abdulloh",
+    github: "muhammad-abdulloh",
+    instagram: "muhammadabdulloh_komilov",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `Medium Blog`,
+      href: "https://medium.com/@muhammadabdullohkomilov",
     },
   ],
   // blog setting (required)
@@ -24,10 +24,30 @@ const CONFIG = {
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  since: 2023, // If leave this empty, current year will be used.
+  lang: "en-US", // ['uz-UZ', 'en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
-
+  seo: {
+    keywords: [
+      "Blog", 
+      "Website", 
+      "Notion", 
+      "Muhammadabdulloh", 
+      "muhammad-abdulloh", 
+      "muhammadabdulloh.uz",
+      "muhammad-abdulloh.uz",
+       "muhammad-abdulloh komilov",
+       "muhammad abdulloh komilov",
+       "dasturlash",
+       "coding",
+        "c sharp",
+        "programming",
+        "komilov",
+        "dotnet",
+        ".net",
+        ".net core",
+    ],
+  }
   // notion configuration (required)
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
@@ -47,9 +67,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: "morethanmin/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
