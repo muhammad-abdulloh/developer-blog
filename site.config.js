@@ -47,7 +47,7 @@ const CONFIG = {
         ".net",
         ".net core",
     ],
-  }
+  },
   // notion configuration (required)
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
