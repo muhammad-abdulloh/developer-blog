@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Medium Blog`,
-      href: "https://medium.com/@muhammadabdullohkomilov",
+      name: `developer-blog`,
+      href: "https://github.com/muhammad-abdulloh/developer-blog",
     },
   ],
   // blog setting (required)
